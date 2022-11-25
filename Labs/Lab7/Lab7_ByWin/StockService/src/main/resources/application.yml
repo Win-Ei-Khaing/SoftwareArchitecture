@@ -1,0 +1,6 @@
+server:
+  port: 8900
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
