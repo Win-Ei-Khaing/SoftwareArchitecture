@@ -1,0 +1,10 @@
+server:
+  port: 8900
+
+spring:
+  application:
+    name: StockService
+    
+
+  
+  
