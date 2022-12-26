@@ -7,14 +7,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RefreshScope
-public class ServiceAController {
-  
+public class ServiceBController {
   @Value("${greeting}")
+  private String greeting;
+  @Value("${message}")
   private String message;
-  
   @RequestMapping("/")
   public String getName() {
-    return message;
+    return message+" , "+greeting;
   }
 }
+
 
